@@ -11,8 +11,12 @@ import lombok.ToString;
 @ToString
 public class Order {
 
-    private int id;
+    public Order(int i, String string, int j, int k) {
+		// TODO Auto-generated constructor stub
+	}
+	private int id;
     private String name;
     private int quantity;
     private long price;
 }
+
